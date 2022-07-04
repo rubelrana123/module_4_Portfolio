@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rubik&display=swap');
+
+/* *{
+  margin: 0px;
+  padding: 0px; 
+  box-sizing: border-box; 
+} */
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+}
+h1{
+  font-size: 50px;
+}
+/* p{
+  color: dimgray;
+  padding: 15px 0px;
+  padding-bottom: 20px
+} */
+img{
+  width: 80%;
+}
+
+span{
+  color: orange;
+}
+section{
+  /* height: 500px;
+  width: 100%; */
+  border: 2px solid black;
+  
+  display: flex;
+  /* justify-content: space-between; */
+ 
+}
+/* .ex-h1{
+  display: block;
+} */
+/* .flexible{
+  display: flex;
+  margin-bottom: 150px;
+} */
+.header{
+  background: url("images/top-banner.png") no-repeat;
+
+}
+.half-width{
+  width: 50%;
+  
+  padding-left: 5%;
+  /* margin-left: 2%;
+  justify-content: center;
+  align-self: center;
+   */
+}
+.link-button{
+ 
+  text-decoration: none;
+  background-image: linear-gradient(50deg, red , orange);
+  padding: 10px 40px;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all .3s ease;
+  color:  white;
+
+}
+.link-button:hover{
+  letter-spacing: 1.5px;
+  background-color: orange;
+  color: rgb(48, 45, 45);
+
+}
+/* .dream-area{
+   background: url("images/dream-bg.png");
+   background-repeat: no-repeat;
+   background-position: right ;
+
+} */
