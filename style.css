@@ -31,6 +31,7 @@ section{
   border: 2px solid black;
   
   display: flex;
+  margin-bottom: 120px;
   /* justify-content: space-between; */
  
 }
@@ -73,9 +74,9 @@ section{
   color: rgb(48, 45, 45);
 
 }
-/* .dream-area{
+.dream-area{
    background: url("images/dream-bg.png");
    background-repeat: no-repeat;
    background-position: right ;
 
-} */
+}
