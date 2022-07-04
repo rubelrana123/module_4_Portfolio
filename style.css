@@ -13,6 +13,12 @@ body{
 h1{
   font-size: 50px;
 }
+h2{
+  font-size: 40px;
+}
+p{
+  text-align: justify;
+}
 /* p{
   color: dimgray;
   padding: 15px 0px;
@@ -28,7 +34,7 @@ span{
 .flexible-container{
   /* height: 500px;
   width: 100%; */
-  border: 2px solid black;
+  
   
   display: flex;
   margin-bottom: 120px;
@@ -79,4 +85,31 @@ span{
    background-repeat: no-repeat;
    background-position: right ;
 
+}
+.experience-area{
+  background: url("images/exp-bg.png") no-repeat;
+  background-position: left;
+}
+.experience-item{
+  box-shadow: 10px 10px 40px rgb(4, 2, 2);
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 5px;
+  padding-left: 20px;
+  
+}
+#pro-web{
+border-left: 7px solid rgb(221, 33, 33);
+
+}
+#baby-web{
+  border-left:  7px solid blue;
+
+
+
+}
+footer p {
+
+  text-align: center;
 }
